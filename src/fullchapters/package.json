@@ -1,0 +1,42 @@
+{
+  "name": "Refactoring-ver.2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:06": "NOED_ENV=test mocha $(find ./chapter-06/ -name '*.spec.js') -w",
+    "test:07": "NOED_ENV=test mocha $(find ./chapter-07/ -name '*.spec.js') -w",
+    "test:08": "NOED_ENV=test mocha $(find ./chapter-08/ -name '*.spec.js') -w",
+    "test:09": "NOED_ENV=test mocha $(find ./chapter-09/ -name '*.spec.js') -w",
+    "test:10": "NOED_ENV=test mocha $(find ./chapter-10/ -name '*.spec.js') -w",
+    "test:11": "NOED_ENV=test mocha $(find ./chapter-11/ -name '*.spec.js') -w",
+    "test:12": "NOED_ENV=test mocha $(find ./chapter-12/ -name '*.spec.js') -w",
+    "execute": "node ./chapter-08/part.03-Move_Statements_into_Function/before.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imseongtae/reafactoring-ver.2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imseongtae/reafactoring-ver.2/issues"
+  },
+  "homepage": "https://github.com/imseongtae/reafactoring-ver.2#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "chai": "^4.2.0",
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-mocha": "^8.0.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "mocha": "^8.1.3",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "js-money": "^0.6.3",
+    "lodash": "^4.17.20"
+  }
+}
